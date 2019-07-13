@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "2d760a137f7b745f997c2b5fa757c07b"
+build_time: [1563005353, 413365000]
+inputs:
+  "/Users/huangzishan/Desktop/GPUImageDemo/GPUImageDemo/ViewController.swift": [1563005353, 298883823]
+  "/Users/huangzishan/Desktop/GPUImageDemo/GPUImageDemo/AppDelegate.swift": [1562984595, 457502028]

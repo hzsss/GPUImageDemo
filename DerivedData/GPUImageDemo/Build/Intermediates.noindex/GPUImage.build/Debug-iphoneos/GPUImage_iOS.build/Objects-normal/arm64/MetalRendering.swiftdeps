@@ -1,0 +1,598 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "standardImageVertices"
+- "generateRenderPipelineState"
+provides-nominal:
+provides-member:
+- ["So16MTLCommandBufferP", ""]
+- ["So16MTLCommandBufferP", "clear"]
+- ["So16MTLCommandBufferP", "renderQuad"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "*"
+- !private "+"
+- !private "..<"
+- !private "=="
+- "AssignmentPrecedence"
+- "Bool"
+- "Color"
+- !private "Double"
+- "Float"
+- "ImageOrientation"
+- "Int"
+- !private "MTLAutoreleasedRenderPipelineReflection"
+- !private "MTLClearColorMake"
+- "MTLCommandBuffer"
+- "MTLDataType"
+- !private "MTLPixelFormat"
+- !private "MTLRenderPassDescriptor"
+- !private "MTLRenderPipelineDescriptor"
+- "MTLRenderPipelineState"
+- !private "MemoryLayout"
+- "MetalRenderingDevice"
+- "ShaderUniformSettings"
+- "String"
+- "Texture"
+- "UInt"
+- !private "fatalError"
+- "generateRenderPipelineState"
+- !private "print"
+- !private "sharedMetalRenderingDevice"
+- "standardImageVertices"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "count"]
+- !private ["Sa", "enumerated"]
+- !private ["SK", "count"]
+- !private ["SK", "enumerated"]
+- !private ["SB", "init"]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "bufferDataType"]
+- !private ["s7CVarArgP", "bufferStructType"]
+- !private ["s7CVarArgP", "clearColor"]
+- !private ["s7CVarArgP", "colorAttachments"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "dataType"]
+- !private ["s7CVarArgP", "enumerated"]
+- !private ["s7CVarArgP", "fragmentArguments"]
+- !private ["s7CVarArgP", "fragmentFunction"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "loadAction"]
+- !private ["s7CVarArgP", "members"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "pixelFormat"]
+- !private ["s7CVarArgP", "rasterSampleCount"]
+- !private ["s7CVarArgP", "storeAction"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "texture"]
+- !private ["s7CVarArgP", "type"]
+- !private ["s7CVarArgP", "vertexFunction"]
+- !private ["Sl", "count"]
+- !private ["Sl", "enumerated"]
+- !private ["Sl", "subscript"]
+- !private ["8GPUImage5ColorV", "alphaComponent"]
+- !private ["8GPUImage5ColorV", "blueComponent"]
+- !private ["8GPUImage5ColorV", "greenComponent"]
+- !private ["8GPUImage5ColorV", "redComponent"]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "enumerated"]
+- !private ["s28CustomDebugStringConvertibleP", "bufferDataType"]
+- !private ["s28CustomDebugStringConvertibleP", "bufferStructType"]
+- !private ["s28CustomDebugStringConvertibleP", "clearColor"]
+- !private ["s28CustomDebugStringConvertibleP", "colorAttachments"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "dataType"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerated"]
+- !private ["s28CustomDebugStringConvertibleP", "fragmentArguments"]
+- !private ["s28CustomDebugStringConvertibleP", "fragmentFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "loadAction"]
+- !private ["s28CustomDebugStringConvertibleP", "members"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "pixelFormat"]
+- !private ["s28CustomDebugStringConvertibleP", "rasterSampleCount"]
+- !private ["s28CustomDebugStringConvertibleP", "storeAction"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "texture"]
+- !private ["s28CustomDebugStringConvertibleP", "type"]
+- !private ["s28CustomDebugStringConvertibleP", "vertexFunction"]
+- !private ["s17CustomReflectableP", "clearColor"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "enumerated"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "loadAction"]
+- !private ["s17CustomReflectableP", "pixelFormat"]
+- !private ["s17CustomReflectableP", "storeAction"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "texture"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "bufferDataType"]
+- !private ["s23CustomStringConvertibleP", "bufferStructType"]
+- !private ["s23CustomStringConvertibleP", "clearColor"]
+- !private ["s23CustomStringConvertibleP", "colorAttachments"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "dataType"]
+- !private ["s23CustomStringConvertibleP", "enumerated"]
+- !private ["s23CustomStringConvertibleP", "fragmentArguments"]
+- !private ["s23CustomStringConvertibleP", "fragmentFunction"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "loadAction"]
+- !private ["s23CustomStringConvertibleP", "members"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "pixelFormat"]
+- !private ["s23CustomStringConvertibleP", "rasterSampleCount"]
+- !private ["s23CustomStringConvertibleP", "storeAction"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "texture"]
+- !private ["s23CustomStringConvertibleP", "type"]
+- !private ["s23CustomStringConvertibleP", "vertexFunction"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "enumerated"]
+- !private ["Se", "clearColor"]
+- !private ["Se", "count"]
+- !private ["Se", "enumerated"]
+- !private ["Se", "init"]
+- !private ["Se", "loadAction"]
+- !private ["Se", "pixelFormat"]
+- !private ["Se", "storeAction"]
+- !private ["Se", "subscript"]
+- !private ["Se", "texture"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SD", "count"]
+- !private ["SD", "subscript"]
+- !private ["Sd", "init"]
+- !private ["SE", "clearColor"]
+- !private ["SE", "count"]
+- !private ["SE", "enumerated"]
+- !private ["SE", "init"]
+- !private ["SE", "loadAction"]
+- !private ["SE", "pixelFormat"]
+- !private ["SE", "storeAction"]
+- !private ["SE", "subscript"]
+- !private ["SE", "texture"]
+- !private ["SQ", "argumentInfo"]
+- !private ["SQ", "bgra8Unorm"]
+- !private ["SQ", "buffer"]
+- !private ["SQ", "bufferDataType"]
+- !private ["SQ", "bufferStructType"]
+- !private ["SQ", "bufferTypeInfo"]
+- !private ["SQ", "clear"]
+- !private ["SQ", "clearColor"]
+- !private ["SQ", "colorAttachments"]
+- !private ["SQ", "count"]
+- !private ["SQ", "counterClockwise"]
+- !private ["SQ", "dataType"]
+- !private ["SQ", "enumerated"]
+- !private ["SQ", "fragmentArguments"]
+- !private ["SQ", "fragmentFunction"]
+- !private ["SQ", "init"]
+- !private ["SQ", "loadAction"]
+- !private ["SQ", "members"]
+- !private ["SQ", "name"]
+- !private ["SQ", "pixelFormat"]
+- !private ["SQ", "portrait"]
+- !private ["SQ", "rasterSampleCount"]
+- !private ["SQ", "store"]
+- !private ["SQ", "storeAction"]
+- !private ["SQ", "struct"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "texture"]
+- !private ["SQ", "triangleStrip"]
+- !private ["SQ", "type"]
+- !private ["SQ", "vertexFunction"]
+- !private ["s25ExpressibleByArrayLiteralP", "argumentInfo"]
+- !private ["s25ExpressibleByArrayLiteralP", "bufferTypeInfo"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "enumerated"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "count"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "clearColor"]
+- !private ["s23ExpressibleByNilLiteralP", "loadAction"]
+- !private ["s23ExpressibleByNilLiteralP", "pixelFormat"]
+- !private ["s23ExpressibleByNilLiteralP", "storeAction"]
+- !private ["s23ExpressibleByNilLiteralP", "texture"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SF", "init"]
+- !private ["SH", "bgra8Unorm"]
+- !private ["SH", "buffer"]
+- !private ["SH", "bufferDataType"]
+- !private ["SH", "bufferStructType"]
+- !private ["SH", "clear"]
+- !private ["SH", "clearColor"]
+- !private ["SH", "colorAttachments"]
+- !private ["SH", "count"]
+- !private ["SH", "counterClockwise"]
+- !private ["SH", "dataType"]
+- !private ["SH", "enumerated"]
+- !private ["SH", "fragmentArguments"]
+- !private ["SH", "fragmentFunction"]
+- !private ["SH", "init"]
+- !private ["SH", "loadAction"]
+- !private ["SH", "members"]
+- !private ["SH", "name"]
+- !private ["SH", "pixelFormat"]
+- !private ["SH", "portrait"]
+- !private ["SH", "rasterSampleCount"]
+- !private ["SH", "store"]
+- !private ["SH", "storeAction"]
+- !private ["SH", "struct"]
+- !private ["SH", "subscript"]
+- !private ["SH", "texture"]
+- !private ["SH", "triangleStrip"]
+- !private ["SH", "type"]
+- !private ["SH", "vertexFunction"]
+- !private ["8GPUImage16ImageOrientationO", "portrait"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["So11MTLArgumentC", "bufferDataType"]
+- !private ["So11MTLArgumentC", "bufferStructType"]
+- !private ["So11MTLArgumentC", "type"]
+- !private ["So15MTLArgumentTypeV", "buffer"]
+- !private ["So9MTLBufferP", "label"]
+- ["So16MTLCommandBufferP", "Bool"]
+- ["So16MTLCommandBufferP", "Color"]
+- !private ["So16MTLCommandBufferP", "Double"]
+- ["So16MTLCommandBufferP", "Float"]
+- ["So16MTLCommandBufferP", "ImageOrientation"]
+- !private ["So16MTLCommandBufferP", "MTLClearColorMake"]
+- !private ["So16MTLCommandBufferP", "MTLRenderPassDescriptor"]
+- ["So16MTLCommandBufferP", "MTLRenderPipelineState"]
+- !private ["So16MTLCommandBufferP", "MemoryLayout"]
+- ["So16MTLCommandBufferP", "ShaderUniformSettings"]
+- ["So16MTLCommandBufferP", "Texture"]
+- ["So16MTLCommandBufferP", "UInt"]
+- ["So16MTLCommandBufferP", "clear"]
+- !private ["So16MTLCommandBufferP", "fatalError"]
+- !private ["So16MTLCommandBufferP", "makeRenderCommandEncoder"]
+- !private ["So16MTLCommandBufferP", "print"]
+- ["So16MTLCommandBufferP", "renderQuad"]
+- !private ["So16MTLCommandBufferP", "sharedMetalRenderingDevice"]
+- !private ["So16MTLCommandBufferP", "standardImageVertices"]
+- !private ["So17MTLCommandEncoderP", "drawPrimitives"]
+- !private ["So17MTLCommandEncoderP", "endEncoding"]
+- !private ["So17MTLCommandEncoderP", "setFragmentTexture"]
+- !private ["So17MTLCommandEncoderP", "setFrontFacing"]
+- !private ["So17MTLCommandEncoderP", "setRenderPipelineState"]
+- !private ["So17MTLCommandEncoderP", "setVertexBuffer"]
+- !private ["So11MTLDataTypeV", "struct"]
+- !private ["So9MTLDeviceP", "makeBuffer"]
+- !private ["So9MTLDeviceP", "makeRenderPipelineState"]
+- !private ["So10MTLLibraryP", "makeFunction"]
+- !private ["So13MTLLoadActionV", "clear"]
+- !private ["So17MTLPipelineOptionV", "argumentInfo"]
+- !private ["So17MTLPipelineOptionV", "bufferTypeInfo"]
+- !private ["So14MTLPixelFormatV", "bgra8Unorm"]
+- !private ["So16MTLPrimitiveTypeV", "triangleStrip"]
+- !private ["So23MTLRenderCommandEncoderP", "drawPrimitives"]
+- !private ["So23MTLRenderCommandEncoderP", "endEncoding"]
+- !private ["So23MTLRenderCommandEncoderP", "setFragmentTexture"]
+- !private ["So23MTLRenderCommandEncoderP", "setFrontFacing"]
+- !private ["So23MTLRenderCommandEncoderP", "setRenderPipelineState"]
+- !private ["So23MTLRenderCommandEncoderP", "setVertexBuffer"]
+- !private ["So33MTLRenderPassAttachmentDescriptorC", "clearColor"]
+- !private ["So33MTLRenderPassAttachmentDescriptorC", "loadAction"]
+- !private ["So33MTLRenderPassAttachmentDescriptorC", "storeAction"]
+- !private ["So33MTLRenderPassAttachmentDescriptorC", "texture"]
+- !private ["So38MTLRenderPassColorAttachmentDescriptorC", "clearColor"]
+- !private ["So38MTLRenderPassColorAttachmentDescriptorC", "loadAction"]
+- !private ["So38MTLRenderPassColorAttachmentDescriptorC", "storeAction"]
+- !private ["So38MTLRenderPassColorAttachmentDescriptorC", "texture"]
+- !private ["So43MTLRenderPassColorAttachmentDescriptorArrayC", "subscript"]
+- !private ["So23MTLRenderPassDescriptorC", "colorAttachments"]
+- !private ["So23MTLRenderPassDescriptorC", "init"]
+- !private ["So42MTLRenderPipelineColorAttachmentDescriptorC", "pixelFormat"]
+- !private ["So47MTLRenderPipelineColorAttachmentDescriptorArrayC", "subscript"]
+- !private ["So27MTLRenderPipelineDescriptorC", "colorAttachments"]
+- !private ["So27MTLRenderPipelineDescriptorC", "fragmentFunction"]
+- !private ["So27MTLRenderPipelineDescriptorC", "init"]
+- !private ["So27MTLRenderPipelineDescriptorC", "rasterSampleCount"]
+- !private ["So27MTLRenderPipelineDescriptorC", "vertexFunction"]
+- !private ["So27MTLRenderPipelineReflectionC", "fragmentArguments"]
+- !private ["So11MTLResourceP", "label"]
+- !private ["So14MTLStoreActionV", "store"]
+- !private ["So15MTLStructMemberC", "dataType"]
+- !private ["So15MTLStructMemberC", "name"]
+- !private ["So13MTLStructTypeC", "members"]
+- !private ["So7MTLTypeC", "members"]
+- !private ["So10MTLWindingV", "counterClockwise"]
+- !private ["s12MemoryLayoutO", "size"]
+- !private ["8GPUImage20MetalRenderingDeviceC", "device"]
+- !private ["8GPUImage20MetalRenderingDeviceC", "shaderLibrary"]
+- !private ["SM", "count"]
+- !private ["SM", "enumerated"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "enumerated"]
+- !private ["So9NSCopyingP", "clearColor"]
+- !private ["So9NSCopyingP", "colorAttachments"]
+- !private ["So9NSCopyingP", "fragmentFunction"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "loadAction"]
+- !private ["So9NSCopyingP", "pixelFormat"]
+- !private ["So9NSCopyingP", "rasterSampleCount"]
+- !private ["So9NSCopyingP", "storeAction"]
+- !private ["So9NSCopyingP", "texture"]
+- !private ["So9NSCopyingP", "vertexFunction"]
+- !private ["So8NSObjectC", "bufferDataType"]
+- !private ["So8NSObjectC", "bufferStructType"]
+- !private ["So8NSObjectC", "clearColor"]
+- !private ["So8NSObjectC", "colorAttachments"]
+- !private ["So8NSObjectC", "dataType"]
+- !private ["So8NSObjectC", "fragmentArguments"]
+- !private ["So8NSObjectC", "fragmentFunction"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "loadAction"]
+- !private ["So8NSObjectC", "members"]
+- !private ["So8NSObjectC", "name"]
+- !private ["So8NSObjectC", "pixelFormat"]
+- !private ["So8NSObjectC", "rasterSampleCount"]
+- !private ["So8NSObjectC", "storeAction"]
+- !private ["So8NSObjectC", "subscript"]
+- !private ["So8NSObjectC", "texture"]
+- !private ["So8NSObjectC", "type"]
+- !private ["So8NSObjectC", "vertexFunction"]
+- ["So8NSObjectP", "Bool"]
+- ["So8NSObjectP", "Color"]
+- !private ["So8NSObjectP", "Double"]
+- ["So8NSObjectP", "Float"]
+- ["So8NSObjectP", "ImageOrientation"]
+- !private ["So8NSObjectP", "MTLClearColorMake"]
+- !private ["So8NSObjectP", "MTLRenderPassDescriptor"]
+- ["So8NSObjectP", "MTLRenderPipelineState"]
+- !private ["So8NSObjectP", "MemoryLayout"]
+- ["So8NSObjectP", "ShaderUniformSettings"]
+- ["So8NSObjectP", "Texture"]
+- ["So8NSObjectP", "UInt"]
+- !private ["So8NSObjectP", "bufferDataType"]
+- !private ["So8NSObjectP", "bufferStructType"]
+- !private ["So8NSObjectP", "clearColor"]
+- !private ["So8NSObjectP", "colorAttachments"]
+- !private ["So8NSObjectP", "dataType"]
+- !private ["So8NSObjectP", "drawPrimitives"]
+- !private ["So8NSObjectP", "endEncoding"]
+- !private ["So8NSObjectP", "fatalError"]
+- !private ["So8NSObjectP", "fragmentArguments"]
+- !private ["So8NSObjectP", "fragmentFunction"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "label"]
+- !private ["So8NSObjectP", "loadAction"]
+- !private ["So8NSObjectP", "makeBuffer"]
+- !private ["So8NSObjectP", "makeFunction"]
+- !private ["So8NSObjectP", "makeRenderCommandEncoder"]
+- !private ["So8NSObjectP", "makeRenderPipelineState"]
+- !private ["So8NSObjectP", "members"]
+- !private ["So8NSObjectP", "name"]
+- !private ["So8NSObjectP", "pixelFormat"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "rasterSampleCount"]
+- !private ["So8NSObjectP", "setFragmentTexture"]
+- !private ["So8NSObjectP", "setFrontFacing"]
+- !private ["So8NSObjectP", "setRenderPipelineState"]
+- !private ["So8NSObjectP", "setVertexBuffer"]
+- !private ["So8NSObjectP", "sharedMetalRenderingDevice"]
+- !private ["So8NSObjectP", "standardImageVertices"]
+- !private ["So8NSObjectP", "storeAction"]
+- !private ["So8NSObjectP", "subscript"]
+- !private ["So8NSObjectP", "texture"]
+- !private ["So8NSObjectP", "type"]
+- !private ["So8NSObjectP", "vertexFunction"]
+- !private ["Sj", "init"]
+- !private ["s9OptionSetP", "argumentInfo"]
+- !private ["s9OptionSetP", "bufferTypeInfo"]
+- !private ["Sq", "clearColor"]
+- !private ["Sq", "loadAction"]
+- !private ["Sq", "pixelFormat"]
+- !private ["Sq", "storeAction"]
+- !private ["Sq", "texture"]
+- !private ["Sk", "count"]
+- !private ["Sk", "enumerated"]
+- !private ["Sm", "count"]
+- !private ["Sm", "enumerated"]
+- !private ["SY", "argumentInfo"]
+- !private ["SY", "bgra8Unorm"]
+- !private ["SY", "buffer"]
+- !private ["SY", "bufferTypeInfo"]
+- !private ["SY", "clear"]
+- !private ["SY", "counterClockwise"]
+- !private ["SY", "store"]
+- !private ["SY", "struct"]
+- !private ["SY", "triangleStrip"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "count"]
+- !private ["ST", "enumerated"]
+- !private ["ST", "subscript"]
+- !private ["s10SetAlgebraP", "argumentInfo"]
+- !private ["s10SetAlgebraP", "bufferTypeInfo"]
+- !private ["8GPUImage21ShaderUniformSettingsC", "restoreShaderSettings"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["8GPUImage7TextureC", "texture"]
+- !private ["8GPUImage7TextureC", "textureCoordinates"]
+- !private ["Su", "init"]
+- !private ["8GPUImage18UniformConvertibleP", "init"]
+- !private ["SU", "init"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "enumerated"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "enumerated"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "enumerated"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "enumerated"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bufferDataType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bufferStructType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "clearColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "colorAttachments"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fragmentArguments"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fragmentFunction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "loadAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "members"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pixelFormat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rasterSampleCount"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "storeAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "texture"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "type"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "vertexFunction"]
+- !private ["s21_ObjectiveCBridgeableP", "clearColor"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "enumerated"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "loadAction"]
+- !private ["s21_ObjectiveCBridgeableP", "pixelFormat"]
+- !private ["s21_ObjectiveCBridgeableP", "storeAction"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "texture"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "SK"
+- !private "SB"
+- !private "Sz"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "8GPUImage5ColorV"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SD"
+- !private "Sd"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SF"
+- !private "SH"
+- !private "8GPUImage16ImageOrientationO"
+- !private "s25LosslessStringConvertibleP"
+- !private "So11MTLArgumentC"
+- !private "So15MTLArgumentTypeV"
+- !private "So9MTLBufferP"
+- "So16MTLCommandBufferP"
+- !private "So17MTLCommandEncoderP"
+- !private "So11MTLDataTypeV"
+- !private "So9MTLDeviceP"
+- !private "So10MTLLibraryP"
+- !private "So13MTLLoadActionV"
+- !private "So17MTLPipelineOptionV"
+- !private "So14MTLPixelFormatV"
+- !private "So16MTLPrimitiveTypeV"
+- !private "So23MTLRenderCommandEncoderP"
+- !private "So33MTLRenderPassAttachmentDescriptorC"
+- !private "So38MTLRenderPassColorAttachmentDescriptorC"
+- !private "So43MTLRenderPassColorAttachmentDescriptorArrayC"
+- !private "So23MTLRenderPassDescriptorC"
+- !private "So42MTLRenderPipelineColorAttachmentDescriptorC"
+- !private "So47MTLRenderPipelineColorAttachmentDescriptorArrayC"
+- !private "So27MTLRenderPipelineDescriptorC"
+- !private "So27MTLRenderPipelineReflectionC"
+- !private "So11MTLResourceP"
+- !private "So14MTLStoreActionV"
+- !private "So15MTLStructMemberC"
+- !private "So13MTLStructTypeC"
+- !private "So7MTLTypeC"
+- !private "So10MTLWindingV"
+- !private "s12MemoryLayoutO"
+- !private "8GPUImage20MetalRenderingDeviceC"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So9NSCopyingP"
+- !private "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sj"
+- !private "s9OptionSetP"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- !private "8GPUImage21ShaderUniformSettingsC"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "8GPUImage7TextureC"
+- !private "Su"
+- !private "8GPUImage18UniformConvertibleP"
+- !private "SU"
+- !private "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MetalKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MetalPerformanceShaders.framework/Headers/MetalPerformanceShaders.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MetalKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "44f860f701a3f4a99107f237d85cfe87"

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>261D386F-C6B1-4D8F-8451-C3D557D68C4C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>261D386F-C6B1-4D8F-8451-C3D557D68C4C.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>GPUImageDemo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GPUImageDemo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build GPUImageDemo</string>
+			<key>timeStartedRecording</key>
+			<real>584699675.04628694</real>
+			<key>timeStoppedRecording</key>
+			<real>584699675.29782498</real>
+			<key>title</key>
+			<string>Build GPUImageDemo</string>
+			<key>uniqueIdentifier</key>
+			<string>261D386F-C6B1-4D8F-8451-C3D557D68C4C</string>
+		</dict>
+		<key>85BB4C11-F54D-46E2-88FF-A7BCB3C5B6CE</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>85BB4C11-F54D-46E2-88FF-A7BCB3C5B6CE.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>GPUImageDemo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GPUImageDemo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build GPUImageDemo</string>
+			<key>timeStartedRecording</key>
+			<real>584699635.20404398</real>
+			<key>timeStoppedRecording</key>
+			<real>584699635.32082701</real>
+			<key>title</key>
+			<string>Build GPUImageDemo</string>
+			<key>uniqueIdentifier</key>
+			<string>85BB4C11-F54D-46E2-88FF-A7BCB3C5B6CE</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

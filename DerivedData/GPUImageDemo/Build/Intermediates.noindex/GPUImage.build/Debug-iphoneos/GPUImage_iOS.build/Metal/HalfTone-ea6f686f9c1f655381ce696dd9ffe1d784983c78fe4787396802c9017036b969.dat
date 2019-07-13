@@ -1,0 +1,4 @@
+dependencies: \
+  /Users/huangzishan/Downloads/GPUImage3-master的副本/framework/Source/Operations/HalfTone.metal \
+  /Users/huangzishan/Downloads/GPUImage3-master的副本/framework/Source/Operations/OperationShaderTypes.h \
+  /Users/huangzishan/Downloads/GPUImage3-master的副本/framework/Source/Operations/BlendShaderTypes.h

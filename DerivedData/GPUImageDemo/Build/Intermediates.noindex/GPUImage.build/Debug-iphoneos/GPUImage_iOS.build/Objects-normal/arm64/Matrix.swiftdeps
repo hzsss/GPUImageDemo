@@ -1,0 +1,286 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Matrix4x4"
+- "Matrix3x3"
+- "orthographicMatrix"
+provides-nominal:
+- "8GPUImage9Matrix4x4V"
+- "8GPUImage9Matrix3x3V"
+provides-member:
+- ["8GPUImage9Matrix4x4V", ""]
+- ["8GPUImage9Matrix3x3V", ""]
+- ["8GPUImage9Matrix4x4V", "init"]
+- ["8GPUImage9Matrix4x4V", "init"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- !private "-"
+- !private "/"
+- !private ">"
+- "AssignmentPrecedence"
+- "Bool"
+- "CATransform3D"
+- !private "CATransform3DMakeAffineTransform"
+- "CGAffineTransform"
+- "Float"
+- "Matrix3x3"
+- "Matrix4x4"
+- !private "fatalError"
+- "orthographicMatrix"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "count"]
+- !private ["Sa", "subscript"]
+- !private ["SK", "count"]
+- !private ["SK", "subscript"]
+- !private ["SB", "init"]
+- !private ["So13CATransform3DV", "m11"]
+- !private ["So13CATransform3DV", "m12"]
+- !private ["So13CATransform3DV", "m13"]
+- !private ["So13CATransform3DV", "m14"]
+- !private ["So13CATransform3DV", "m21"]
+- !private ["So13CATransform3DV", "m22"]
+- !private ["So13CATransform3DV", "m23"]
+- !private ["So13CATransform3DV", "m24"]
+- !private ["So13CATransform3DV", "m31"]
+- !private ["So13CATransform3DV", "m32"]
+- !private ["So13CATransform3DV", "m33"]
+- !private ["So13CATransform3DV", "m34"]
+- !private ["So13CATransform3DV", "m41"]
+- !private ["So13CATransform3DV", "m42"]
+- !private ["So13CATransform3DV", "m43"]
+- !private ["So13CATransform3DV", "m44"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "count"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "count"]
+- !private ["Se", "init"]
+- !private ["Se", "subscript"]
+- !private ["SE", "count"]
+- !private ["SE", "init"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "count"]
+- !private ["SQ", "init"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["Sf", "init"]
+- !private ["SF", "init"]
+- !private ["SH", "count"]
+- !private ["SH", "init"]
+- !private ["SH", "subscript"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- ["8GPUImage9Matrix3x3V", "Float"]
+- ["8GPUImage9Matrix3x3V", "Matrix3x3"]
+- ["8GPUImage9Matrix3x3V", "centerOnly"]
+- !private ["8GPUImage9Matrix3x3V", "fatalError"]
+- ["8GPUImage9Matrix3x3V", "identity"]
+- ["8GPUImage9Matrix3x3V", "init"]
+- ["8GPUImage9Matrix3x3V", "m11"]
+- ["8GPUImage9Matrix3x3V", "m12"]
+- ["8GPUImage9Matrix3x3V", "m13"]
+- ["8GPUImage9Matrix3x3V", "m21"]
+- ["8GPUImage9Matrix3x3V", "m22"]
+- ["8GPUImage9Matrix3x3V", "m23"]
+- ["8GPUImage9Matrix3x3V", "m31"]
+- ["8GPUImage9Matrix3x3V", "m32"]
+- ["8GPUImage9Matrix3x3V", "m33"]
+- ["8GPUImage9Matrix4x4V", "CATransform3D"]
+- !private ["8GPUImage9Matrix4x4V", "CATransform3DMakeAffineTransform"]
+- ["8GPUImage9Matrix4x4V", "CGAffineTransform"]
+- ["8GPUImage9Matrix4x4V", "Float"]
+- ["8GPUImage9Matrix4x4V", "Matrix4x4"]
+- !private ["8GPUImage9Matrix4x4V", "fatalError"]
+- ["8GPUImage9Matrix4x4V", "identity"]
+- ["8GPUImage9Matrix4x4V", "init"]
+- ["8GPUImage9Matrix4x4V", "m11"]
+- ["8GPUImage9Matrix4x4V", "m12"]
+- ["8GPUImage9Matrix4x4V", "m13"]
+- ["8GPUImage9Matrix4x4V", "m14"]
+- ["8GPUImage9Matrix4x4V", "m21"]
+- ["8GPUImage9Matrix4x4V", "m22"]
+- ["8GPUImage9Matrix4x4V", "m23"]
+- ["8GPUImage9Matrix4x4V", "m24"]
+- ["8GPUImage9Matrix4x4V", "m31"]
+- ["8GPUImage9Matrix4x4V", "m32"]
+- ["8GPUImage9Matrix4x4V", "m33"]
+- ["8GPUImage9Matrix4x4V", "m34"]
+- ["8GPUImage9Matrix4x4V", "m41"]
+- ["8GPUImage9Matrix4x4V", "m42"]
+- ["8GPUImage9Matrix4x4V", "m43"]
+- ["8GPUImage9Matrix4x4V", "m44"]
+- !private ["SM", "count"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["Sj", "init"]
+- !private ["Sk", "count"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "count"]
+- !private ["Sm", "subscript"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "count"]
+- !private ["ST", "subscript"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["8GPUImage18UniformConvertibleP", "CATransform3DMakeAffineTransform"]
+- !private ["8GPUImage18UniformConvertibleP", "Float"]
+- ["8GPUImage18UniformConvertibleP", "Matrix3x3"]
+- ["8GPUImage18UniformConvertibleP", "Matrix4x4"]
+- !private ["8GPUImage18UniformConvertibleP", "fatalError"]
+- ["8GPUImage18UniformConvertibleP", "init"]
+- !private ["8GPUImage18UniformConvertibleP", "m11"]
+- !private ["8GPUImage18UniformConvertibleP", "m12"]
+- !private ["8GPUImage18UniformConvertibleP", "m13"]
+- !private ["8GPUImage18UniformConvertibleP", "m14"]
+- !private ["8GPUImage18UniformConvertibleP", "m21"]
+- !private ["8GPUImage18UniformConvertibleP", "m22"]
+- !private ["8GPUImage18UniformConvertibleP", "m23"]
+- !private ["8GPUImage18UniformConvertibleP", "m24"]
+- !private ["8GPUImage18UniformConvertibleP", "m31"]
+- !private ["8GPUImage18UniformConvertibleP", "m32"]
+- !private ["8GPUImage18UniformConvertibleP", "m33"]
+- !private ["8GPUImage18UniformConvertibleP", "m34"]
+- !private ["8GPUImage18UniformConvertibleP", "m41"]
+- !private ["8GPUImage18UniformConvertibleP", "m42"]
+- !private ["8GPUImage18UniformConvertibleP", "m43"]
+- !private ["8GPUImage18UniformConvertibleP", "m44"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "m11"]
+- !private ["s21_ObjectiveCBridgeableP", "m12"]
+- !private ["s21_ObjectiveCBridgeableP", "m13"]
+- !private ["s21_ObjectiveCBridgeableP", "m14"]
+- !private ["s21_ObjectiveCBridgeableP", "m21"]
+- !private ["s21_ObjectiveCBridgeableP", "m22"]
+- !private ["s21_ObjectiveCBridgeableP", "m23"]
+- !private ["s21_ObjectiveCBridgeableP", "m24"]
+- !private ["s21_ObjectiveCBridgeableP", "m31"]
+- !private ["s21_ObjectiveCBridgeableP", "m32"]
+- !private ["s21_ObjectiveCBridgeableP", "m33"]
+- !private ["s21_ObjectiveCBridgeableP", "m34"]
+- !private ["s21_ObjectiveCBridgeableP", "m41"]
+- !private ["s21_ObjectiveCBridgeableP", "m42"]
+- !private ["s21_ObjectiveCBridgeableP", "m43"]
+- !private ["s21_ObjectiveCBridgeableP", "m44"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "SK"
+- !private "SB"
+- !private "So13CATransform3DV"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "Sf"
+- !private "SF"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- "8GPUImage9Matrix3x3V"
+- "8GPUImage9Matrix4x4V"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sj"
+- !private "Sk"
+- !private "Sm"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s20TextOutputStreamableP"
+- "8GPUImage18UniformConvertibleP"
+- !private "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MetalKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MetalPerformanceShaders.framework/Headers/MetalPerformanceShaders.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MetalKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "baccc75bd7fad552a193403669c4a26b"

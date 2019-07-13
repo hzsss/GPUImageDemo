@@ -1,0 +1,384 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "defaultVertexFunctionNameForInputs"
+- "BasicOperation"
+provides-nominal:
+- "8GPUImage14BasicOperationC"
+provides-member:
+- ["8GPUImage14BasicOperationC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "..<"
+- !private ">="
+- !private "??"
+- "AssignmentPrecedence"
+- "BasicOperation"
+- "Bool"
+- "BooleanLiteralType"
+- "DispatchSemaphore"
+- !private "DispatchTime"
+- "ImageConsumer"
+- "ImageProcessingOperation"
+- !private "Int"
+- "MTLCommandBuffer"
+- "MTLRenderPipelineState"
+- "ShaderUniformSettings"
+- "SourceContainer"
+- "String"
+- "TargetContainer"
+- "Texture"
+- "UInt"
+- "defaultVertexFunctionNameForInputs"
+- !private "generateRenderPipelineState"
+- !private "print"
+- !private "sharedMetalRenderingDevice"
+- !private "||"
+- !private "~="
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- ["8GPUImage14BasicOperationC", "Bool"]
+- ["8GPUImage14BasicOperationC", "DispatchSemaphore"]
+- !private ["8GPUImage14BasicOperationC", "DispatchTime"]
+- ["8GPUImage14BasicOperationC", "ImageConsumer"]
+- !private ["8GPUImage14BasicOperationC", "Int"]
+- ["8GPUImage14BasicOperationC", "MTLCommandBuffer"]
+- ["8GPUImage14BasicOperationC", "MTLRenderPipelineState"]
+- ["8GPUImage14BasicOperationC", "ShaderUniformSettings"]
+- ["8GPUImage14BasicOperationC", "SourceContainer"]
+- ["8GPUImage14BasicOperationC", "String"]
+- ["8GPUImage14BasicOperationC", "TargetContainer"]
+- ["8GPUImage14BasicOperationC", "Texture"]
+- ["8GPUImage14BasicOperationC", "UInt"]
+- ["8GPUImage14BasicOperationC", "activatePassthroughOnNextFrame"]
+- !private ["8GPUImage14BasicOperationC", "defaultVertexFunctionNameForInputs"]
+- ["8GPUImage14BasicOperationC", "deinit"]
+- !private ["8GPUImage14BasicOperationC", "generateRenderPipelineState"]
+- ["8GPUImage14BasicOperationC", "init"]
+- ["8GPUImage14BasicOperationC", "inputTextures"]
+- ["8GPUImage14BasicOperationC", "internalRenderFunction"]
+- ["8GPUImage14BasicOperationC", "maximumInputs"]
+- ["8GPUImage14BasicOperationC", "metalPerformanceShaderPathway"]
+- ["8GPUImage14BasicOperationC", "newTextureAvailable"]
+- ["8GPUImage14BasicOperationC", "operationName"]
+- !private ["8GPUImage14BasicOperationC", "print"]
+- ["8GPUImage14BasicOperationC", "removeTransientInputs"]
+- ["8GPUImage14BasicOperationC", "renderPipelineState"]
+- !private ["8GPUImage14BasicOperationC", "sharedMetalRenderingDevice"]
+- ["8GPUImage14BasicOperationC", "sources"]
+- ["8GPUImage14BasicOperationC", "targets"]
+- ["8GPUImage14BasicOperationC", "textureInputSemaphore"]
+- ["8GPUImage14BasicOperationC", "transmitPreviousImage"]
+- ["8GPUImage14BasicOperationC", "uniformSettings"]
+- !private ["8GPUImage14BasicOperationC", "updateTargetsWithTexture"]
+- ["8GPUImage14BasicOperationC", "useMetalPerformanceShaders"]
+- ["8GPUImage14BasicOperationC", "useNormalizedTextureCoordinates"]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "count"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "signal"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "wait"]
+- !private ["Sl", "count"]
+- ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "distantFuture"]
+- !private ["SL", "init"]
+- !private ["SL", "zero"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "signal"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "wait"]
+- !private ["s17CustomReflectableP", "count"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "signal"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "wait"]
+- !private ["Se", "count"]
+- ["Se", "init"]
+- !private ["Se", "subscript"]
+- !private ["SD", "count"]
+- ["SD", "init"]
+- !private ["SD", "subscript"]
+- ["So18OS_dispatch_objectC", "init"]
+- !private ["So18OS_dispatch_objectC", "signal"]
+- !private ["So18OS_dispatch_objectC", "wait"]
+- ["So21OS_dispatch_semaphoreC", "init"]
+- !private ["So21OS_dispatch_semaphoreC", "signal"]
+- !private ["So21OS_dispatch_semaphoreC", "wait"]
+- !private ["8Dispatch0A4TimeV", "distantFuture"]
+- !private ["SE", "count"]
+- ["SE", "init"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "count"]
+- !private ["SQ", "distantFuture"]
+- !private ["SQ", "flipsDimensions"]
+- ["SQ", "init"]
+- !private ["SQ", "noRotation"]
+- !private ["SQ", "portrait"]
+- !private ["SQ", "rotationNeeded"]
+- !private ["SQ", "signal"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "wait"]
+- !private ["SQ", "zero"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "count"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", "count"]
+- !private ["SH", "flipsDimensions"]
+- ["SH", "init"]
+- !private ["SH", "noRotation"]
+- !private ["SH", "portrait"]
+- !private ["SH", "rotationNeeded"]
+- !private ["SH", "signal"]
+- !private ["SH", "subscript"]
+- !private ["SH", "wait"]
+- ["8GPUImage13ImageConsumerP", "DispatchSemaphore"]
+- !private ["8GPUImage13ImageConsumerP", "DispatchTime"]
+- !private ["8GPUImage13ImageConsumerP", "ShaderUniformSettings"]
+- ["8GPUImage13ImageConsumerP", "SourceContainer"]
+- ["8GPUImage13ImageConsumerP", "TargetContainer"]
+- ["8GPUImage13ImageConsumerP", "Texture"]
+- ["8GPUImage13ImageConsumerP", "UInt"]
+- ["8GPUImage13ImageConsumerP", ""]
+- !private ["8GPUImage13ImageConsumerP", "activatePassthroughOnNextFrame"]
+- !private ["8GPUImage13ImageConsumerP", "defaultVertexFunctionNameForInputs"]
+- !private ["8GPUImage13ImageConsumerP", "generateRenderPipelineState"]
+- !private ["8GPUImage13ImageConsumerP", "inputTextures"]
+- !private ["8GPUImage13ImageConsumerP", "internalRenderFunction"]
+- ["8GPUImage13ImageConsumerP", "maximumInputs"]
+- !private ["8GPUImage13ImageConsumerP", "metalPerformanceShaderPathway"]
+- ["8GPUImage13ImageConsumerP", "newTextureAvailable"]
+- !private ["8GPUImage13ImageConsumerP", "operationName"]
+- !private ["8GPUImage13ImageConsumerP", "print"]
+- !private ["8GPUImage13ImageConsumerP", "removeTransientInputs"]
+- !private ["8GPUImage13ImageConsumerP", "renderPipelineState"]
+- !private ["8GPUImage13ImageConsumerP", "sharedMetalRenderingDevice"]
+- ["8GPUImage13ImageConsumerP", "sources"]
+- ["8GPUImage13ImageConsumerP", "targets"]
+- !private ["8GPUImage13ImageConsumerP", "textureInputSemaphore"]
+- ["8GPUImage13ImageConsumerP", "transmitPreviousImage"]
+- !private ["8GPUImage13ImageConsumerP", "uniformSettings"]
+- !private ["8GPUImage13ImageConsumerP", "updateTargetsWithTexture"]
+- !private ["8GPUImage13ImageConsumerP", "useMetalPerformanceShaders"]
+- !private ["8GPUImage13ImageConsumerP", "useNormalizedTextureCoordinates"]
+- !private ["8GPUImage16ImageOrientationO", "portrait"]
+- !private ["8GPUImage16ImageOrientationO", "rotationNeeded"]
+- ["8GPUImage24ImageProcessingOperationP", "DispatchSemaphore"]
+- !private ["8GPUImage24ImageProcessingOperationP", "DispatchTime"]
+- !private ["8GPUImage24ImageProcessingOperationP", "ShaderUniformSettings"]
+- ["8GPUImage24ImageProcessingOperationP", "SourceContainer"]
+- ["8GPUImage24ImageProcessingOperationP", "TargetContainer"]
+- ["8GPUImage24ImageProcessingOperationP", "Texture"]
+- ["8GPUImage24ImageProcessingOperationP", "UInt"]
+- ["8GPUImage24ImageProcessingOperationP", ""]
+- !private ["8GPUImage24ImageProcessingOperationP", "activatePassthroughOnNextFrame"]
+- !private ["8GPUImage24ImageProcessingOperationP", "defaultVertexFunctionNameForInputs"]
+- !private ["8GPUImage24ImageProcessingOperationP", "generateRenderPipelineState"]
+- !private ["8GPUImage24ImageProcessingOperationP", "inputTextures"]
+- !private ["8GPUImage24ImageProcessingOperationP", "internalRenderFunction"]
+- ["8GPUImage24ImageProcessingOperationP", "maximumInputs"]
+- !private ["8GPUImage24ImageProcessingOperationP", "metalPerformanceShaderPathway"]
+- ["8GPUImage24ImageProcessingOperationP", "newTextureAvailable"]
+- !private ["8GPUImage24ImageProcessingOperationP", "operationName"]
+- !private ["8GPUImage24ImageProcessingOperationP", "print"]
+- !private ["8GPUImage24ImageProcessingOperationP", "removeTransientInputs"]
+- !private ["8GPUImage24ImageProcessingOperationP", "renderPipelineState"]
+- !private ["8GPUImage24ImageProcessingOperationP", "sharedMetalRenderingDevice"]
+- ["8GPUImage24ImageProcessingOperationP", "sources"]
+- ["8GPUImage24ImageProcessingOperationP", "targets"]
+- !private ["8GPUImage24ImageProcessingOperationP", "textureInputSemaphore"]
+- ["8GPUImage24ImageProcessingOperationP", "transmitPreviousImage"]
+- !private ["8GPUImage24ImageProcessingOperationP", "uniformSettings"]
+- !private ["8GPUImage24ImageProcessingOperationP", "updateTargetsWithTexture"]
+- !private ["8GPUImage24ImageProcessingOperationP", "useMetalPerformanceShaders"]
+- !private ["8GPUImage24ImageProcessingOperationP", "useNormalizedTextureCoordinates"]
+- ["8GPUImage11ImageSourceP", "DispatchSemaphore"]
+- !private ["8GPUImage11ImageSourceP", "DispatchTime"]
+- !private ["8GPUImage11ImageSourceP", "ShaderUniformSettings"]
+- ["8GPUImage11ImageSourceP", "SourceContainer"]
+- ["8GPUImage11ImageSourceP", "TargetContainer"]
+- ["8GPUImage11ImageSourceP", "Texture"]
+- ["8GPUImage11ImageSourceP", "UInt"]
+- ["8GPUImage11ImageSourceP", ""]
+- !private ["8GPUImage11ImageSourceP", "activatePassthroughOnNextFrame"]
+- !private ["8GPUImage11ImageSourceP", "defaultVertexFunctionNameForInputs"]
+- !private ["8GPUImage11ImageSourceP", "generateRenderPipelineState"]
+- !private ["8GPUImage11ImageSourceP", "inputTextures"]
+- !private ["8GPUImage11ImageSourceP", "internalRenderFunction"]
+- ["8GPUImage11ImageSourceP", "maximumInputs"]
+- !private ["8GPUImage11ImageSourceP", "metalPerformanceShaderPathway"]
+- ["8GPUImage11ImageSourceP", "newTextureAvailable"]
+- !private ["8GPUImage11ImageSourceP", "operationName"]
+- !private ["8GPUImage11ImageSourceP", "print"]
+- !private ["8GPUImage11ImageSourceP", "removeTransientInputs"]
+- !private ["8GPUImage11ImageSourceP", "renderPipelineState"]
+- !private ["8GPUImage11ImageSourceP", "sharedMetalRenderingDevice"]
+- ["8GPUImage11ImageSourceP", "sources"]
+- ["8GPUImage11ImageSourceP", "targets"]
+- !private ["8GPUImage11ImageSourceP", "textureInputSemaphore"]
+- ["8GPUImage11ImageSourceP", "transmitPreviousImage"]
+- !private ["8GPUImage11ImageSourceP", "uniformSettings"]
+- !private ["8GPUImage11ImageSourceP", "updateTargetsWithTexture"]
+- !private ["8GPUImage11ImageSourceP", "useMetalPerformanceShaders"]
+- !private ["8GPUImage11ImageSourceP", "useNormalizedTextureCoordinates"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["So16MTLCommandBufferP", "commit"]
+- !private ["So16MTLCommandBufferP", "renderQuad"]
+- !private ["So15MTLCommandQueueP", "makeCommandBuffer"]
+- !private ["So11MTLResourceP", "height"]
+- !private ["So11MTLResourceP", "width"]
+- !private ["So10MTLTextureP", "height"]
+- !private ["So10MTLTextureP", "width"]
+- !private ["8GPUImage20MetalRenderingDeviceC", "commandQueue"]
+- !private ["8GPUImage20MetalRenderingDeviceC", "device"]
+- !private ["8GPUImage20MetalRenderingDeviceC", "metalPerformanceShadersAreSupported"]
+- !private ["8GPUImage20MetalRenderingDeviceC", "passthroughRenderState"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "signal"]
+- !private ["So8NSObjectC", "wait"]
+- !private ["So8NSObjectP", "commit"]
+- !private ["So8NSObjectP", "height"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "makeCommandBuffer"]
+- !private ["So8NSObjectP", "renderQuad"]
+- !private ["So8NSObjectP", "signal"]
+- !private ["So8NSObjectP", "wait"]
+- !private ["So8NSObjectP", "width"]
+- !private ["Sj", "init"]
+- ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "signal"]
+- !private ["So9OS_objectC", "wait"]
+- !private ["8GPUImage8RotationO", "deinit"]
+- !private ["8GPUImage8RotationO", "flipsDimensions"]
+- !private ["8GPUImage8RotationO", "noRotation"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "count"]
+- ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["8GPUImage21ShaderUniformSettingsC", "init"]
+- !private ["8GPUImage21ShaderUniformSettingsC", "subscript"]
+- !private ["8GPUImage21ShaderUniformSettingsC", "usesAspectRatio"]
+- ["8GPUImage15SourceContainerC", "init"]
+- !private ["Sx", "init"]
+- ["8GPUImage15TargetContainerC", "init"]
+- !private ["8GPUImage7TextureC", "aspectRatio"]
+- !private ["8GPUImage7TextureC", "init"]
+- !private ["8GPUImage7TextureC", "orientation"]
+- !private ["8GPUImage7TextureC", "texture"]
+- !private ["8GPUImage7TextureC", "timingStyle"]
+- !private ["8GPUImage18TextureTimingStyleO", "isTransient"]
+- !private ["8GPUImage18TextureTimingStyleO", "videoFrame"]
+- !private ["8GPUImage9TimestampV", "zero"]
+- !private ["Su", "init"]
+- !private ["SU", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "signal"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "wait"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- "8GPUImage14BasicOperationC"
+- !private "Sz"
+- "s7CVarArgP"
+- "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SD"
+- "So18OS_dispatch_objectC"
+- "So21OS_dispatch_semaphoreC"
+- !private "8Dispatch0A4TimeV"
+- "SE"
+- "SQ"
+- "s30ExpressibleByDictionaryLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- "8GPUImage13ImageConsumerP"
+- !private "8GPUImage16ImageOrientationO"
+- "8GPUImage24ImageProcessingOperationP"
+- "8GPUImage11ImageSourceP"
+- !private "s25LosslessStringConvertibleP"
+- !private "So16MTLCommandBufferP"
+- !private "So15MTLCommandQueueP"
+- !private "So11MTLResourceP"
+- !private "So10MTLTextureP"
+- !private "8GPUImage20MetalRenderingDeviceC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sj"
+- "So9OS_objectC"
+- !private "8GPUImage8RotationO"
+- !private "s10SIMDScalarP"
+- "ST"
+- !private "8GPUImage21ShaderUniformSettingsC"
+- "8GPUImage15SourceContainerC"
+- !private "Sx"
+- "8GPUImage15TargetContainerC"
+- !private "8GPUImage7TextureC"
+- !private "8GPUImage18TextureTimingStyleO"
+- !private "8GPUImage9TimestampV"
+- !private "Su"
+- !private "SU"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MetalKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MetalPerformanceShaders.framework/Headers/MetalPerformanceShaders.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MetalKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "88c7d9be625f1939afc3d1adc1efa845"
